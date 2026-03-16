@@ -2,55 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/signaltrace/favicon.svg" />
+    <link rel="icon" type="image/png" href="/signaltrace/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+<title>House Trace Puzzle Game — Fast Observation & Tracing Puzzle</title>
+<meta name="description"
+  content="House Trace Puzzle Game is a quick observation puzzle where you find and trace specific houses in cozy neighborhood scenes. Trace fast, stay accurate, and raise your score level after level." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://signaltrace.site/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="House Trace Puzzle Game" />
+<meta property="og:description"
+  content="Find the right houses fast and trace them cleanly to score higher. A cozy, rapid-fire observation puzzle with smooth controls." />
+<meta property="og:url" content="https://signaltrace.site/" />
+<meta property="og:image" content="https://signaltrace.site/assets/og-cover.jpg" />
     <script type="module" crossorigin src="/signaltrace/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/signaltrace/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/signaltrace/assets/styles-CNuFWU2S.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-conatiner">
+        <div class="home-wrapper">
+        <h1 class="home-title">House Trace Puzzle Game</h1>
+        <p class="home-text">Trace the right houses fast. Get better at spotting stuff quickly and try to beat your best time.</p>
+        <p class="home-text-two">House Trace is basically a spot-the-house game where you're hunting through these cute neighborhood scenes. A target
+        appears, you scan the picture, and you trace the correct house shape in one confident move. The faster you find it, the
+        higher your score.</p>
+        <ul class="hero-list">
+            <li class="hero-item">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAqFJREFUeAHFl09sEkEUxr8ZSClNkbYEjdgGPYglQq3pUU0bE02aUL22F0mMIR6bqEejPXogxlvloDExEi9e5MDBA03qsTFS1JakqUaEGKBUqRhRGGcGxfDHdB3b5XfYmZ0d9vtmebP7HkEbWHbRgi6bD9XqGBg7Aob9UIEgCULSMNAY2eOOtJ/SLF5YngAz3ACrWrCTCCNGGmo20mCA5V9d4ccZ7C4hYvOEWgywfCLAmwB0gYWJzRsUPSpPNxJT+okLyAwrvJiQPWkgl3jKe2qBpuwBRVQ2zxl+rd4H/TGBducpj85xdArGxiiqcKBTEOriQchcUKVUMGJ+2oUn14egAmMOI1QR4qELLuTWzW3eZ5qhUOG3ePlL7ffD45tQRM3A46tOKX52NiXPRyZ1NPBo9iCy/LFfup/Exocu2A+VMOAsQ5F/iwEhnor3SnEh+m3LgE8fTbh12tMwz7q3DP/dNZitle1uqd1As7hg8loGDncJX4uG+rxCyoTnDxx4HzfDdWpru9tqM7CyYMHrZzac8KexwnMFLNbGe/gKR31//v/sugn3Lh6A50xOi7h2A85jJQx6i4hHbQ3jZb7yzBuzfBI1cReco58xffsdNKLNgLmvgsvhZMv4HZ8bZktFVVygtg0FQjT7tgf9g2VV8f8zsBy1yjYaHEJ37w+cv5mCAuoGkgt9shXigYdJLVuuHerfgn2HS/Ib4J9fUxUXkI5kQ3WqSQoDWUXHIGkKRpfQKQhiFBUS4ZlJEXpDkCYD3ggl9uEiSGUOusNkcSK3Ien3xvgxDN2ohsTq6wakCdvRoLiAXUdURSOtpVn9cvblFI+JAE/Xd3ZrykLk+xyxH481Dv8FaYQaec3ARNquljkzluGLWeVvmyVeBUWI/WRLsP8ETjfs6d84Cc8AAAAASUVORK5CYII=" alt="icon" loading="lazy">
+                <p class="hero-item-text">Fast "spot-and-trace" levels</p>
+            </li>
+            <li class="hero-item">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAvhJREFUeAHFl19IFEEcx7+ze5znwZ2XqycelIWxJmUWIgRpiU8VZ089JBVhwUEv9RBBPYVPIeFD0INcVA8lPtRbSyL0cFRIUKLiZXkg/onO8Lw83TQ1bqfZVa/8P7vo3Qd2Z+fPznxn5je/mSFYBxp774Jd8kPTKkBpCSgKYQWCCAiJQhRCxF2qrF9kdeOTfTWg4l1QzYXtRBdiE4KrhawQQOOfb7J3PXaWIJEOBdcIoPFwgAUBpAXaRqSyZv1LMKI/w3Xpa1yH1NPJ7hrjyxAwEX7FvqwZmmUNUJFMnBWXeu9H+smC4IgLzDpPIlNQWiFAgw+ZgggyM0Iqwwqj3U60nJfxoK4Uoz1OWIFSH2HL75Opn3oVD/rfeDDa64J3/wygEUyP2+Et/o19lSqOXYibqU4wUxgjrNcvbhdjbkaEGrOjtGYKJbUJxIacRppyby9CLV70MJE7IuB7fzbc3nk0PBqEi4XL/J/27kkhXjKR7fe5lrU5ATxUXxnDmTvD6GuXeIpvvwCHK2mmuI27ZGwoC3PTYipefjoOuUpFdk4SeXsWp8PhTMLB4rNTIm+1fAJeN/nQ+WxxTt1Lc3/q1lgqX67+ZYQ3lC9G2NnKNfw6fFPQ15GL45ejqGLP9HgWPvA3sBV8I5DjXUDkrQeB5xF4fAvG0G/G8EcX3AUL4IBvBM41DRvrPHhRRrk/gdyijSvXbeUbc1JH/FwOiU9AHmvw6tNISkScNbIes5M2tF4vZhsc5fWI5lzxxIgdjxtk9hfB7nIVRZX/puLHVyfCHRJyCuZx6eHgpqNkWcAyuhH2KBKm2B6wjG4n8okEaq+Nm6iJCcjEaSiFFhEgkgFkDBIVQIUuZAqCkIAkUdjJREW6IYiS3DJFIPkHVJBkI9IONS4nhh8gu8pC7N2GtKEF9d6nBBgipIPNegZ2HP1WdHjt1SyVHeutYzYRYN5se5emcRH500jyj4ZWJm+AIUSwsTsD1Y/t1k7OlI6xzgwwb9PFbkEKyV+7if0FsCsIhXypqMEAAAAASUVORK5CYII=" alt="icon" loading="lazy">
+                <p class="hero-item-text">Smooth tracing controls</p>
+            </li>
+            <li class="hero-item">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAA69JREFUeAHFV0lMU1EUPe//ppMWlC81GAoOsUqkgIKJRo3sQAUjrEQT4wrdGKMY3UgcF26Iw0bFjRtTV0KkMeLCYGKMEwihDjQaB6SMZfBDK0j7fO8JNQzGX1Lak/T/99/rv/fcvHvPf5dgFtDepxbolSKEQrmgdA0oUjAXEHhAiBey1EASMlyz/2W684HWfFD5DGjIgmiCE9FJ1dOJTCFAfW8r2LUM84tqomRWzyBAfe5yditHTECdRHFU8ZEkHvvdxbFzzkHK6MCbfDESBPrcdWw0t0SbMweoCA7ulieiL0LsYYBk9EksO7cjXqA0V0IIyxAvEMmuYzTsEb3kH9Dh+d0kfG2yoOeTCcYFQRjYL6fYh037fRHZonQZYeX3WvML396Y4Ty+CmMjEjILfUjJ8Iv5zy8t+NZiAaEEey9/QlqOX6tJ7QS489uH7Mgq7ENBRSdTSoLmB4kwJwZhWxeAefE4HlaloPXREhy86dFKQget4JFz53vOf8e90zY01VphMI+LtVG/DhtKelB6oV083z22Ckdq38HEyEWFwPM7CqsWKiLnzj8+S8SB622wbxsW6833F6H+SiruVQI7KrxorV+CF04F+Yd7/mdaghY01ylIy1Yx3K8TkRceb4dxYQg39tpxtTgDSWljKDnzFU01VqFtjoI+fG7S9DHTRmB0WMbyvGF0tJqgZxmfVTSEmsp0GCzjSLCO4cGlVNi3q9Cbg2hxLcLStQH0fjRpMa2NwE+/LO5+VQ7PGRby/f3zMRsd+TtvnNh3XppRI2BdEUBnmwnrdw2yEpTheWLBzlPf8aNLzxJQRunFLyIPxtg4zeHHl1eWCYJRIpCep4rE4gHnlnSj9uxy9HfocbTuPQ47PRgZ1KH+sg15pd0wJoTQzjQhp0iTKGnTgcCgjGulGVi9ZUiUWk1lKhprloo95+CRc+eTJcqr5ORjNzQgciHKLPBhxwkvi1oWSRlgeZG9c0gIExeit4+ScPCWB7bsgBazc5DiipVCcm2sLNM3qmK+64MZ7nqFleY4ypgUa3QeOYFJcGFqdimiPHmFWFcGkL5BxeZ9Pi3qN5VAPE5DYYQ8EmTShriBeCVQqRHxAkGDhCBxsZOJiliDwEuSHC6JJK9VQYLnEHNQ0ZwIJSSLHQ3s6kTMEKrm0YcJCBLKuiq+gHkH74qyZrZm4eXelmKWE+XsABLd0hSNyK9zJHl9w9Tpf0AQkXSsZ6D82B7ZyTlshHayYNqY2jSyLshFkrfOSPbf6GZySf6O90IAAAAASUVORK5CYII=" alt="icon" loading="lazy">
+                <p class="hero-item-text">Score depends on speed and accuracy</p>
+            </li>
+        </ul>
+        <div class="hero-btn-wrapper">
+            <a class="get-btn btn"  href="#home">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAKlJREFUeAGlktsNgzAMRROU/7JB2w3aDdigHaEbdARgEtgEGIEJgA3YIFxLthQiIDwsHTlBPgaTKHUlrLUJyEC81zHOOuUmFqnRWtdbYuTtSdbgB78Aj72iyD036GiENVlm9INmLnn9PyKK/OWaV+hTZz0dqULu5M+bDSkDT84jiJk77aOA9PEaJDimdu2NUngDbxT2/Dx3i8yCNIAaQqNCQcOD9MiVOx0TzD+BHOymfRMAAAAASUVORK5CYII=" alt="play google" loading="lazy">
+                <p class="google-text">Get it on Google Play</p>
+            </a>
+            <a class="screen-btn btn" href="#screens">
+                <p>See Screenshots</p>
+            </a>
+        </div>
+</div>
+    <div class="img-wrapper">
+<picture>
+    <source srcset="/signaltrace/assets/hero-desk-BY6dT-Wm.png 1x, /signaltrace/assets/hero-desk@2x-BqNn5SLn.png 2x" media="(min-width: 1440px)" />
+    <source srcset="/signaltrace/assets/hero-mob-M64_GSVB.png 1x, /signaltrace/assets/hero-mob@2x-CIZnKYwk.png 2x" media="(max-width: 1439px)" />
+    <img class="home-img" src="/signaltrace/assets/hero-mob-M64_GSVB.png" alt="House Trace" loading="lazy" />
+</picture></div>
+        
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
