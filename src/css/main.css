@@ -1,0 +1,128 @@
+.home-section{
+background: linear-gradient(0deg, #fff 0%, rgba(255, 214, 224, 0.04) 59.55%, rgba(255, 32, 86, 0.12) 100%);
+}
+.home-wrapper{
+    margin-top: 50px;
+}
+.home-title{
+    font-family: "Fredoka", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        letter-spacing: -0.05em;
+        color: #0f172b;
+        text-align: left;
+}
+.home-text{
+    margin-top: 6px;
+        font-weight: 500;
+        line-height: 2.06429;
+        text-align: left;
+
+}
+.home-text-two{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 12px;
+        line-height: 2.08333;
+}
+.hero-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+.hero-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+        line-height: 1.61538;
+        color: #45556c;
+}
+.hero-btn-wrapper{
+    display: flex;
+    gap: 16px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.get-btn{
+    border-radius: 16px;
+        width: 189px;
+        height: 40px;
+        box-shadow: 0 8px 10px -6px rgba(255, 105, 0, 0.25), 0 20px 25px -5px rgba(255, 105, 0, 0.25);
+            background: linear-gradient(90deg, #ff6900 0%, #ff2056 100%);
+font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.60714;
+    color: #fff;
+gap: 14px;
+}
+.screen-btn{
+    border: 1px solid #e2e8f0;
+        border-radius: 16px;
+        width: 143px;
+        height: 40px;
+        background: #fff;
+font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.60714;
+    color: #314158;
+}
+.img-wrapper{
+    margin-top: 25px;
+    border-radius: 26px;
+    padding: 6px 7px;
+    box-shadow: 0 25px 50px -12px rgba(29, 41, 61, 0.4);
+        background: linear-gradient(180deg, #1d293d 0%, #0f172b 100%);
+}
+@media only screen and (min-width: 1440px) {
+   .home-wrapper{
+    margin-top: 70px;
+   }
+   .home-conatiner{
+    position: relative;
+    padding-left: 58px;
+    padding-right: 58px;
+   }
+   .img-wrapper{
+    position: absolute;
+    bottom: 14%;
+    right: 4%;
+    height: 368px;
+        width: 767px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 36px;
+   }
+   .home-title{
+font-size: 80px;
+    letter-spacing: -0.02em;
+   }
+   .home-text{
+    margin-top: 52px;
+    font-size: 20px;
+        line-height: 1.445;
+        width: 450px;
+   }
+   .home-text-two{
+    margin-top: 30px;
+    width: 519px;
+    font-size: 16px;
+   line-height: 1.5625;
+   margin-bottom: 34px;
+   }
+   .hero-list{
+    margin-bottom: 50px;
+   }
+   .hero-item{
+    font-size: 14px;
+   }
+}
