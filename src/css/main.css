@@ -126,3 +126,117 @@ font-size: 80px;
     font-size: 14px;
    }
 }
+/* how swiper */
+.how-text{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.how-container{
+    position: relative;
+}
+.how-swiper .swiper-slide{
+border: 1px solid #f1f5f9;
+    border-radius: 24px;
+    padding: 13px 16px;
+    width: 242px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.how-swiper{
+    width: 242px;
+}
+.how-slide-one{
+    background: rgba(255, 105, 0, 0.1);
+}
+.how-slide-two{
+    background: rgba(0, 187, 167, 0.1);
+}
+.how-slide-three{
+    background: rgba(142, 81, 255, 0.1);
+}
+.how-slide-four{
+    background: rgba(255, 32, 86, 0.1);
+}
+.step{
+    font-family: "Fredoka", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17857;
+        letter-spacing: 0.08em;
+        color: rgba(15, 23, 43, 0.72);
+}
+.how-title-item{
+    font-family: "Fredoka", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.275;
+        color: #0f172b;
+}
+.how-item-text{
+    font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #62748e;
+        text-align: left;
+}
+
+.swiper-btn {
+border: 1px solid rgba(221, 214, 255, 0.6);
+    border-radius: 33554400px;
+    width: 44px;
+    height: 44px;
+box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: rgba(142, 81, 255, 0.54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+
+
+.swiper-btn:disabled {
+    opacity: .35;
+    cursor: not-allowed;
+}
+.how-ui{
+display: flex;
+justify-content: space-between;
+margin-top: -50%;
+}
+/* pagination bullets */
+.swiper-pagination {
+    position: static !important;
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+/* ДОБАВИЛИ puzzle-pagination */
+.how-pagination .swiper-pagination-bullet,
+.design-pagination .swiper-pagination-bullet,
+.puzzle-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+background: #ddd6ff;
+    opacity: 1;
+    border-radius: 999px;
+    margin: 0;
+    transition: width .2s ease, height .2s ease, background .2s ease;
+}
+
+.how-pagination .swiper-pagination-bullet-active,
+.design-pagination .swiper-pagination-bullet-active,
+.puzzle-pagination .swiper-pagination-bullet-active {
+width: 32px;
+    height: 10px;
+background: linear-gradient(90deg, #a684ff 0%, #c27aff 100%);
+    opacity: 1 ;
+}
+
