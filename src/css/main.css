@@ -339,3 +339,71 @@ font-family: "Plus Jakarta Sans", sans-serif;
     justify-content: center;
  }
 }
+/* Score Is Built in the Details */
+.score-section h2{
+    line-height: 1;
+}
+.score-wrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.score-text{
+    text-align: left;
+    width: 329px;
+}
+.score-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.score-item{
+    border: 1px solid #f1f5f9;
+        border-radius: 16px;
+        padding: 16px;
+        width: 328px;
+        height: 102px;
+        background: #fff0e6;
+display: flex;
+align-items: center;
+gap: 26px;
+}
+.score-item-text{
+    font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #1d293d;
+        text-align: left;
+}
+.score-item-two{
+    background: #f4eeff;
+}
+.score-item-three{
+    background: #e6f9f7;
+}
+.score-item-four{
+    background: #ffe9ef;
+}
+@media only screen and (min-width: 1440px) {
+ .mob{
+    display: none;
+ }
+ .score-wrapper{
+    margin-top: 70px;
+    flex-direction: row;
+    gap: 76px;
+    align-items: center;
+ }
+ .score-text{
+    width: 420px;
+ }
+ .score-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 676px;
+    gap: 20px;
+    row-gap: 26px;
+ }
+}
