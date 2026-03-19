@@ -116,10 +116,10 @@ makeResponsiveSwiper({
 
 // ===== Design (до 1440 включен, от 1440 дестрой) =====
 makeResponsiveSwiper({
-  rootSelector: ".design-swiper",
-  prevEl: ".design-prev",
-  nextEl: ".design-next",
-  paginationEl: ".design-pagination",
+  rootSelector: ".reviews-swiper",
+  prevEl: ".reviews-prev",
+  nextEl: ".reviews-next",
+  paginationEl: ".reviews-pagination",
 });
 
 // ===== Puzzle (всегда включен, не дестроится) =====

@@ -233,7 +233,7 @@ align-items: center;
 /* ДОБАВИЛИ puzzle-pagination */
 .how-pagination .swiper-pagination-bullet,
 .gallery-pagination .swiper-pagination-bullet,
-.puzzle-pagination .swiper-pagination-bullet {
+.reviews-pagination .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
 background: #ddd6ff;
@@ -245,7 +245,7 @@ background: #ddd6ff;
 
 .how-pagination .swiper-pagination-bullet-active,
 .gallery-pagination .swiper-pagination-bullet-active,
-.puzzle-pagination .swiper-pagination-bullet-active {
+.reviews-pagination .swiper-pagination-bullet-active {
 width: 32px;
     height: 10px;
 background: linear-gradient(90deg, #a684ff 0%, #c27aff 100%);
@@ -513,4 +513,70 @@ margin-top: 70px;
 .swiper-ui{
     margin-top: 30px;
 }
+}
+/* What Players Say */
+.what-section{
+    background: linear-gradient(180deg, #fffbeb 0%, #fef3c7 50%, #fff7ed 100%);
+}
+.reviews-swiper{
+    margin-top: 30px;
+}
+.reviews-pagination{
+    margin-top: 0;
+}
+.reviews-prev,
+.reviews-next {
+    border: 1px solid rgba(221, 214, 255, 0.6);
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.8);
+}
+.reviews-ui{
+    margin-top: 30px;
+}
+.reviews-swiper .swiper-slide{
+    border-radius: 24px;
+    height: 280px;
+    background: #ffeed2;
+    padding: 22px 20px;
+}
+.reviews-text{
+    font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.96354;
+        color: #45556c;
+        text-align: left;
+        margin-top: 15px;
+}
+.reviews-swiper .reviews-slide-two{
+    background: #cdfaeb;
+}
+.reviews-swiper .reviews-slide-three {
+background: #f1e8fe;
+}
+.reviews-swiper .reviews-slide-four {
+background: #fce6f0;
+}
+.reviews-swiper .reviews-slide-five {
+background: #fee3e6;
+}
+@media only screen and (min-width: 1440px) {
+ .reviews-swiper{
+    margin-top: 70px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .reviews-ui{
+    display: none;
+ }
+.reviews-swiper .swiper-wrapper{
+    width: 960px;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+ .reviews-swiper .swiper-slide{
+    width: 468px;
+        height: 238px;
+ }
 }
