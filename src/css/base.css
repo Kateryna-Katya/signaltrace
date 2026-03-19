@@ -13,3 +13,13 @@ h2{
     letter-spacing: -0.05em;
     color: #0f172b;
 }
+@media only screen and (min-width: 1440px) {
+  body{
+    font-size: 20px;
+    line-height: 1.445;
+  }
+  h2{
+      font-size: 70px;
+      letter-spacing: -0.02em;
+  }
+}

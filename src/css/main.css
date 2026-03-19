@@ -239,4 +239,24 @@ width: 32px;
 background: linear-gradient(90deg, #a684ff 0%, #c27aff 100%);
     opacity: 1 ;
 }
+@media only screen and (min-width: 1440px) {
+   .how-ui{
+    display: none;
+   }
+   .how-pagination{
+    display: none;
+   }
+   .how-text{
+    margin: 70px auto 30px;
+    margin-top: 70px;
+    width: 940px;
+   }
+   .how-swiper{
+    width: 100%;
 
+   }
+   .how-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 20px;    
+   }
+}
