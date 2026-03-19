@@ -188,3 +188,53 @@
     </div>
     </div>
 </section>
+<section class="gallery-section" id="gallery">
+    <div class="container gallery-container">
+        <h2>Screens & Moments</h2>
+        <div class="gallery-swiper">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+        <picture>
+            <source srcset="
+                    /img/gallery/desk-one.png 1x,
+                    /img/gallery/desk-one@2x.png 2x
+                     " media="(min-width: 1440px)" />
+            <source srcset="
+                    /img/gallery/mob-one.png 1x,
+                    /img/gallery/mob-one@2x.png 2x
+                    " media="(max-width: 1439px)" />
+            <img class="gallery-img" src="/img/gallery/mob-one.png" alt="House Trace" loading="lazy" />
+        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="
+                                        /img/gallery/desk-one.png 1x,
+                                        /img/gallery/desk-one@2x.png 2x
+                                         " media="(min-width: 1440px)" />
+                            <source srcset="
+                                        /img/gallery/mob-one.png 1x,
+                                        /img/gallery/mob-one@2x.png 2x
+                                        " media="(max-width: 1439px)" />
+                            <img class="gallery-img" src="/img/gallery/mob-one.png" alt="House Trace" loading="lazy" />
+                        </picture>
+                    </div>
+
+                </div>
+            </div>
+        
+            <div class="swiper-ui">
+                <button class="swiper-btn gallery-prev" type="button" aria-label="Prev">
+<img src="/img/gallery/left.png" alt="Prev" loading="lazy">
+                </button>
+        
+                <div class="swiper-pagination gallery-pagination"></div>
+        
+                <button class="swiper-btn gallery-next" type="button" aria-label="Next">
+<img src="/img/gallery/right.png" alt="Next" loading="lazy">
+                </button>
+            </div>
+        </div>
+    </div>
+</section>

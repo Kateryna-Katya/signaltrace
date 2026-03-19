@@ -124,8 +124,8 @@ makeResponsiveSwiper({
 
 // ===== Puzzle (всегда включен, не дестроится) =====
 makeAlwaysOnSwiper({
-  rootSelector: ".puzzle-swiper",
-  prevEl: ".puzzle-prev",
-  nextEl: ".puzzle-next",
-  paginationEl: ".puzzle-pagination",
+  rootSelector: ".gallery-swiper",
+  prevEl: ".gallery-prev",
+  nextEl: ".gallery-next",
+  paginationEl: ".gallery-pagination",
 });
