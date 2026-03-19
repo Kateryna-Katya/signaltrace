@@ -134,6 +134,8 @@ font-size: 80px;
 .how-container{
     position: relative;
     padding-bottom: 132px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .how-swiper .swiper-slide{
 border: 1px solid #f1f5f9;
@@ -205,7 +207,7 @@ box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
 .how-ui{
 position: absolute;
-width: 100%;
+width: 350px;
 bottom: 40%;
 display: flex;
 align-items: center;
@@ -213,11 +215,11 @@ align-items: center;
 }
 .how-prev{
     position: absolute;
-        left: 0;
+        left: 2%;
 }
 .how-next{
     position: absolute;
-    right: 10%;
+    right: 0;
 }
 /* pagination bullets */
 .swiper-pagination {
