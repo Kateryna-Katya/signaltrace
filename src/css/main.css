@@ -133,6 +133,7 @@ font-size: 80px;
 }
 .how-container{
     position: relative;
+    padding-bottom: 132px;
 }
 .how-swiper .swiper-slide{
 border: 1px solid #f1f5f9;
@@ -203,9 +204,20 @@ box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     cursor: not-allowed;
 }
 .how-ui{
+position: absolute;
+width: 100%;
+bottom: 40%;
 display: flex;
-justify-content: space-between;
-margin-top: -50%;
+align-items: center;
+
+}
+.how-prev{
+    position: absolute;
+        left: 0;
+}
+.how-next{
+    position: absolute;
+    right: 10%;
 }
 /* pagination bullets */
 .swiper-pagination {
@@ -259,4 +271,71 @@ background: linear-gradient(90deg, #a684ff 0%, #c27aff 100%);
     justify-content: center;
     gap: 20px;    
    }
+   .how-container{
+    padding-bottom: 100px;
+   }
+}
+/* Pick Your Pace */
+.pick-section{
+    background-image: url("/img/pick/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.pick-container{
+    padding-bottom: 114px;
+}
+.pick-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.pick-item{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+border: 1px solid rgba(164, 244, 207, 0.8);
+    border-radius: 24px;
+    padding: 33px 33px 22px;
+    width: 312px;
+    height: 252px;
+    background: linear-gradient(135deg, #d0fae5 0%, #cbfbf1 100%);
+}
+.pick-item-two{
+    border: 1px solid rgba(254, 230, 133, 0.8);
+        background: linear-gradient(135deg, #fef3c6 0%, #ffedd4 100%);
+}
+.pick-item-three{
+    background: linear-gradient(135deg, #ffe4e6 0%, #fce7f3 100%);
+    border: 1px solid rgba(255, 204, 211, 0.8);
+}
+.pick-title-item{
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 1.5;
+        text-align: center;
+        color: #1d293d;
+}
+.pick-text-item{
+font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.625;
+    text-align: center;
+    color: #62748e;
+}
+@media only screen and (min-width: 1440px) {
+ .pick-section{
+    background-image: url("/img/pick/desk.png");
+ }
+ .pick-list{
+    margin-top: 80px;
+    flex-direction: row;
+    justify-content: center;
+ }
 }
