@@ -348,7 +348,7 @@ font-family: "Plus Jakarta Sans", sans-serif;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: start;
+align-items: center;
 }
 .score-text{
     text-align: left;
@@ -406,4 +406,68 @@ gap: 26px;
     gap: 20px;
     row-gap: 26px;
  }
+}
+/* A Cozy Neighborhood Packed with Clues */
+.cozy-container{
+    padding-right: 6px;
+}
+.cozy-wrap{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cozy-text{
+    text-align: left;
+    width: 328px;
+}
+.cozy-wrapper{
+    display: flex;
+        flex-direction: column;
+        gap: 30px;
+}
+.cozy-list{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.cozy-item{
+    display: flex;
+    align-items: center;
+  gap: 4px;
+}
+.cozy-text-item{
+    font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 1.67308;
+        color: #45556c;
+text-align: left;
+}
+.cozy-img{
+border-radius: 24px;
+}
+@media only screen and (min-width: 1440px) {
+  .cozy-container{
+    padding-right: 130px;
+  }
+  .cozy-wrap{
+    margin-top: 70px;
+    flex-direction: row-reverse;
+    gap: 84px;
+  }
+  .cozy-wrapper{
+    width: 543px;
+  }
+  .cozy-text{
+    width: 550px;
+    font-size: 16px;
+    line-height: 1.625;
+  }
+  .cozy-wrapper{
+    gap: 26px;
+  }
+  .cozy-list{
+    gap: 10px;
+  }
 }
